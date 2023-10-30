@@ -1,45 +1,97 @@
-
-body{
-  background-color: white;
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  Color: black;
-  font-size: 24px;
-  font-family: Raleway, Sans-serif;
-}
-
-h2 {
-  Color: blue;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
   font-size: 16px;
-  font-family: Raleway, Sans-serif;
-}
-h3{
-    font-size: 12px;
-  font-family: Raleway, Sans-serif;
+  line-height: 1.5;
 }
 
-
-h4,p,ul{
-  font-size: 10px;
-  font-family: Lato, Sans-serif;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
-h5{
+.header h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.header h2 {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c6ccff;
+  padding: 20px;
+}
+
+.contact h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contact h4, .contact h3 {
+  line-height: 1.2;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.skills, .experience, .education {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p, ul {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.experience h5, .education h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.experience h6, .education h6 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer h6 {
   font-size: 12px;
-  font-family: Sans-serif;
-}
-h6{
-  font-size: 9px;
-  font-family: Sans-serif;
-  color: grey;
-}
-
-
-img{
-  width: 25px
-}
-
-hr{
-  height: 3px;
 }
